@@ -38,3 +38,4 @@ Help translate Arcane on Crowdin: https://crowdin.com/project/arcane-docker-mana
 Thank you for checking out Arcane! Your feedback and contributions are always welcome.
 
 </div>
+# vibe-code-custom-arcane
