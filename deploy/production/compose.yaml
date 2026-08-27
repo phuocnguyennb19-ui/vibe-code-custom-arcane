@@ -1,0 +1,95 @@
+name: ${STACK_NAME:-arcane}
+
+services:
+  arcane:
+    image: "${ARCANE_IMAGE:?set ARCANE_IMAGE in .env - cp env.example .env, then README Install step 2}"
+    restart: unless-stopped
+
+    ports:
+      - "${BIND_ADDR:-127.0.0.1}:${BIND_PORT:-3552}:3552"
+
+    # MODE B: delete `ports:` above, uncomment these two.
+    # networks:
+    #   - proxy
+    # expose:
+    #   - "3552"
+
+    environment:
+      - BASE_PATH=${BASE_PATH:-}
+      - "APP_URL=${APP_URL:?missing .env - in deploy/production run 'cp env.example .env' first}"
+      - ENCRYPTION_KEY_FILE=/run/secrets/arcane_encryption_key
+      - JWT_SECRET_FILE=/run/secrets/arcane_jwt_secret
+      - TRUSTED_PROXIES=${TRUSTED_PROXIES:-${ARCANE_SUBNET:-172.29.0.0/24}}
+      - PUID=${PUID:-65532}
+      - PGID=${PGID:-65532}
+      - TZ=${TZ:-UTC}
+      - ANALYTICS_DISABLED=${ANALYTICS_DISABLED:-false}
+
+    group_add:
+      - "${DOCKER_GID:?missing .env - in deploy/production run 'cp env.example .env' first}"
+
+    secrets:
+      - arcane_encryption_key
+      - arcane_jwt_secret
+
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - arcane-data:/app/data
+      - arcane-builds:/builds
+
+    cgroup: host
+
+    read_only: true
+    tmpfs:
+      - /tmp:rw,nosuid,size=256m,uid=65532,gid=65532
+    cap_drop: [ALL]
+    cap_add: [CHOWN, DAC_OVERRIDE, FOWNER, SETGID, SETUID]
+    security_opt:
+      - no-new-privileges:true
+
+    deploy:
+      resources:
+        limits:
+          cpus: "${CPU_LIMIT:-2.0}"
+          memory: ${MEMORY_LIMIT:-2G}
+          pids: ${PIDS_LIMIT:-4096}
+
+    healthcheck:
+      test: ["CMD", "./arcane", "health", "--timeout", "2s"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+
+    logging:
+      driver: json-file
+      options:
+        max-size: "${LOG_MAX_SIZE:-10m}"
+        max-file: "${LOG_MAX_FILE:-5}"
+
+    networks:
+      - arcane
+
+secrets:
+  arcane_encryption_key:
+    file: ./secrets/encryption_key
+  arcane_jwt_secret:
+    file: ./secrets/jwt_secret
+
+networks:
+  arcane:
+    name: ${NETWORK_NAME:-arcane}
+    driver: bridge
+    ipam:
+      config:
+        - subnet: ${ARCANE_SUBNET:-172.29.0.0/24}
+  # MODE B: the proxy's existing network.
+  # proxy:
+  #   name: ${PROXY_NETWORK:-proxy}
+  #   external: true
+
+volumes:
+  arcane-data:
+    name: ${DATA_VOLUME:-arcane-data}
+  arcane-builds:
+    name: ${BUILDS_VOLUME:-arcane-builds}

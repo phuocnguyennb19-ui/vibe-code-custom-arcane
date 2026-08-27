@@ -1,0 +1,72 @@
+# Arcane served from a URL sub-path (https://example.com/arcane) behind Nginx.
+#
+# BASE_PATH makes Arcane answer only under that prefix, so Nginx forwards the
+# request path unchanged — do NOT strip the prefix here. Arcane needs to see
+# /arcane/... to serve the UI and the API from the same place the browser asks
+# for them.
+#
+# APP_URL must carry the same sub-path: OIDC redirect URIs and the WebSocket
+# origin check are built from it, and a mismatch breaks login and live streams.
+
+services:
+  nginx:
+    image: nginx:1.29-alpine
+    container_name: arcane-nginx
+    ports:
+      - "8080:80"
+    volumes:
+      - ./nginx.subpath.conf:/etc/nginx/conf.d/default.conf:ro
+    networks:
+      - arcane-subpath
+    depends_on:
+      arcane:
+        condition: service_healthy
+    restart: unless-stopped
+
+  arcane:
+    image: ghcr.io/getarcaneapp/arcane:latest
+    container_name: arcane
+    # No published port: Nginx is the only way in.
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - arcane-data:/app/data
+    environment:
+      - ENCRYPTION_KEY=replace_me_with_a_random_32_char_value
+      - JWT_SECRET=replace_me_with_a_random_32_char_value
+      # The URL sub-path Arcane is served under. Leading slash, no trailing
+      # slash. Requests outside it are refused, and / redirects here.
+      - BASE_PATH=/arcane
+      # Must match BASE_PATH, including scheme and host as reached by browsers.
+      - APP_URL=http://localhost:8080/arcane
+      # Required for X-Forwarded-Proto to be honored, which is what makes
+      # Arcane issue Secure cookies when Nginx terminates TLS. Must cover the
+      # proxy's address on the network below.
+      - TRUSTED_PROXIES=172.31.0.0/16
+      # Timezone for cron job scheduling (e.g., America/New_York, Europe/London)
+      - TZ=UTC
+    networks:
+      - arcane-subpath
+    # Use host cgroup namespace for better container self-detection
+    cgroup: host
+    healthcheck:
+      # The health command reads BASE_PATH and probes the same prefix.
+      test:
+        ["CMD", "./arcane", "health", "--timeout", "2s"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+      start_period: 15s
+    restart: unless-stopped
+
+networks:
+  arcane-subpath:
+    name: arcane-subpath
+    driver: bridge
+    ipam:
+      config:
+        # Fixed subnet so TRUSTED_PROXIES above stays correct.
+        - subnet: 172.31.0.0/16
+
+volumes:
+  arcane-data:
+    name: arcane-data

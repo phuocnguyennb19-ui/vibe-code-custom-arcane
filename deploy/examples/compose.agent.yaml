@@ -1,0 +1,26 @@
+services:
+  arcane-agent:
+    image: ghcr.io/getarcaneapp/agent:latest
+    container_name: arcane-agent
+    ports:
+      - "3553:3553"
+    environment:
+      - AGENT_MODE=true
+      - AGENT_TOKEN=arc_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+      - MANAGER_API_URL=http://10.1.1.4:3552
+      # Optional: run the agent as a specific host UID/GID instead of the default runtime user.
+      # When using the mounted Docker socket, Arcane will map the socket group automatically.
+      # - PUID=1000
+      # - PGID=1000
+      # Optional gRPC tunnel setting:
+      - EDGE_TRANSPORT=websocket
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - agent-data:/app/data
+    # Use host cgroup namespace for better container self-detection
+    # This allows Arcane to detect its own container ID more reliably
+    cgroup: host
+    restart: unless-stopped
+
+volumes:
+  agent-data:
