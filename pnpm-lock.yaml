@@ -260,8 +260,8 @@ importers:
         specifier: ^1.0.2
         version: 1.0.2(svelte@5.56.10)
       shadcn-svelte:
-        specifier: ^1.5.0
-        version: 1.5.0(svelte@5.56.10)
+        specifier: ^1.5.1
+        version: 1.5.1(svelte@5.56.10)
       svelte-check-rs:
         specifier: ^0.11.0
         version: 0.11.0(@typescript/native-preview@7.0.0-dev.20260707.2)
@@ -2574,6 +2574,7 @@ packages:
   isomorphic-dompurify@3.22.0:
     resolution: {integrity: sha512-cz/BkSODnQir4IV2quqbuEHhAGz4MAYGvhoemsxuwMpY/oZbRHlNjPLPyIQ0fdULiwDPUE+OHPwWb6XTEiNk1A==}
     engines: {node: ^22.22.2 || ^24.15.0 || >=26.0.0}
+    deprecated: Raised the minimum Node.js version (breaking) without a major bump. Use 4.x for the same code with correct semver, or pin 3.19.0 for Node < 22.22.2.
 
   jiti@2.6.1:
     resolution: {integrity: sha512-ekilCSN1jwRvIbgeg/57YFh8qQDNbwDb9xT/qu2DAHbFFZUicIl4ygVaAvzveMhMVr3LnpSKTNnwt8PoOfmKhQ==}
@@ -3120,8 +3121,8 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
-  shadcn-svelte@1.5.0:
-    resolution: {integrity: sha512-fcxTeUwEIvELkL/h0Vg2i/9Sf6exAmLG5u3GXc0aN8CA+3fNffKQnfrTdMgkjUEmx9XP619I+wcJOvlr5aDWYQ==}
+  shadcn-svelte@1.5.1:
+    resolution: {integrity: sha512-tYwDrts10wW8nJf6Ysnqz3ofnYvEc0OGizkH3i0fTxIkq6l2ZybaA84HvY1Sm6nRmNpyKbAIGf6krMYMoD5e/g==}
     hasBin: true
     peerDependencies:
       svelte: ^5.0.0
@@ -6175,7 +6176,7 @@ snapshots:
 
   semver@7.8.5: {}
 
-  shadcn-svelte@1.5.0(svelte@5.56.10):
+  shadcn-svelte@1.5.1(svelte@5.56.10):
     dependencies:
       commander: 14.0.3
       node-fetch-native: 1.6.7
