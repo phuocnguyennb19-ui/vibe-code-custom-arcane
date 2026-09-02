@@ -34,7 +34,7 @@ require (
 	github.com/getarcaneapp/arcane/cli/v2 v2.9.0
 	github.com/getarcaneapp/arcane/types/v2 v2.9.0
 	github.com/go-git/go-git/v5 v5.19.2
-	github.com/go-webauthn/webauthn v0.17.4
+	github.com/go-webauthn/webauthn v0.18.0
 	github.com/gofrs/flock v0.13.0
 	github.com/golang-jwt/jwt/v5 v5.3.1
 	github.com/google/go-containerregistry v0.22.0
@@ -156,7 +156,7 @@ require (
 	github.com/fogleman/ease v0.0.0-20170301025033-8da417bf1776 // indirect
 	github.com/fsnotify/fsevents v0.2.0 // indirect
 	github.com/fvbommel/sortorder v1.1.0 // indirect
-	github.com/fxamacker/cbor/v2 v2.9.2 // indirect
+	github.com/fxamacker/cbor/v2 v2.9.3 // indirect
 	github.com/go-git/gcfg v1.5.1-0.20230307220236-3a3c6141e376 // indirect
 	github.com/go-git/go-billy/v5 v5.9.0 // indirect
 	github.com/go-jose/go-jose/v4 v4.1.4 // indirect
@@ -164,7 +164,7 @@ require (
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-ole/go-ole v1.3.0 // indirect
 	github.com/go-viper/mapstructure/v2 v2.5.0 // indirect
-	github.com/go-webauthn/x v0.2.6 // indirect
+	github.com/go-webauthn/x v0.3.0 // indirect
 	github.com/golang/groupcache v0.0.0-20241129210726-2c02b8208cf8 // indirect
 	github.com/google/go-cmp v0.7.0 // indirect
 	github.com/google/go-tpm v0.9.8 // indirect
