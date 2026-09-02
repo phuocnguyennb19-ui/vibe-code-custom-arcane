@@ -227,8 +227,8 @@ importers:
         version: 4.4.3
     devDependencies:
       '@iconify/json':
-        specifier: ^2.2.520
-        version: 2.2.520
+        specifier: ^2.2.524
+        version: 2.2.524
       '@inlang/paraglide-js':
         specifier: 2.24.1
         version: 2.24.1(@typescript/typescript6@6.0.2)(@voidzero-dev/vite-plus-core@0.3.0(@types/node@26.3.0)(@typescript/typescript6@6.0.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.12)(yaml@2.9.0))
@@ -863,8 +863,8 @@ packages:
   '@hapi/topo@6.0.2':
     resolution: {integrity: sha512-KR3rD5inZbGMrHmgPxsJ9dbi6zEK+C3ZwUwTa+eMwWLz7oijWUTWD2pMSNNYJAU6Qq+65NkxXjqHr/7LM2Xkqg==}
 
-  '@iconify/json@2.2.520':
-    resolution: {integrity: sha512-WySQx8JrnDXmrEc5nhbnXAQU1T5Xjyhz+ZdB0kW1Lufp/GcDT2lLKHSYm3bvwPRbd/GL1ZFaKI/M65g4Z/uUTQ==}
+  '@iconify/json@2.2.524':
+    resolution: {integrity: sha512-xw2TRuiRcOzx8mTXRNIfg9FYr4sd7Z7s/DGKitJZt3njeiFmjHte8qKWEGK+IePYtQ1QyVnhfOi+5sEjVTmvDQ==}
 
   '@iconify/types@2.0.0':
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
@@ -2574,6 +2574,7 @@ packages:
   isomorphic-dompurify@3.22.0:
     resolution: {integrity: sha512-cz/BkSODnQir4IV2quqbuEHhAGz4MAYGvhoemsxuwMpY/oZbRHlNjPLPyIQ0fdULiwDPUE+OHPwWb6XTEiNk1A==}
     engines: {node: ^22.22.2 || ^24.15.0 || >=26.0.0}
+    deprecated: Raised the minimum Node.js version (breaking) without a major bump. Use 4.x for the same code with correct semver, or pin 3.19.0 for Node < 22.22.2.
 
   jiti@2.6.1:
     resolution: {integrity: sha512-ekilCSN1jwRvIbgeg/57YFh8qQDNbwDb9xT/qu2DAHbFFZUicIl4ygVaAvzveMhMVr3LnpSKTNnwt8PoOfmKhQ==}
@@ -4026,7 +4027,7 @@ snapshots:
       '@hapi/hoek': 11.0.7
     optional: true
 
-  '@iconify/json@2.2.520':
+  '@iconify/json@2.2.524':
     dependencies:
       '@iconify/types': 2.0.0
       pathe: 2.0.3
