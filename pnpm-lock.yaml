@@ -242,8 +242,8 @@ importers:
         specifier: ^4.3.3
         version: 4.3.3(@voidzero-dev/vite-plus-core@0.3.0(@types/node@26.3.0)(@typescript/typescript6@6.0.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.12)(yaml@2.9.0))
       '@tanstack/svelte-query-devtools':
-        specifier: ^6.1.43
-        version: 6.1.43(@tanstack/svelte-query@6.1.43(svelte@5.56.10))(svelte@5.56.10)
+        specifier: ^6.1.48
+        version: 6.1.48(@tanstack/svelte-query@6.1.43(svelte@5.56.10))(svelte@5.56.10)
       '@types/node':
         specifier: ^26.3.0
         version: 26.3.0
@@ -1544,16 +1544,16 @@ packages:
   '@tanstack/query-core@5.102.3':
     resolution: {integrity: sha512-5O2VEceonqC4uaTLUGglb0hgPouWCJ4K1ykVWyeV8aThhdNCzwpwu01bYoaRNJ9mgFUXS7Kf9utJ46ysT8m+bw==}
 
-  '@tanstack/query-devtools@5.102.3':
-    resolution: {integrity: sha512-J/QKK3J+YuqOY/CQBypJSUGANGcdurFyHP4GZDP90QiB3G/wQVeGamo3zFJ/sTcM2uvF3+V7K3rS521xS8B3lQ==}
+  '@tanstack/query-devtools@5.102.8':
+    resolution: {integrity: sha512-ZgeMKuF5d/zOE+tgWm3cSbD6Zcbr6IugVsnbHzUcSismqLZDSUPBKM6ILUxExgwe6rPAOox2x5bA5T+PSOQG0Q==}
 
   '@tanstack/store@0.11.1':
     resolution: {integrity: sha512-mzTOBhypOuDJAy/D8n2MfUZ1HFkXnmSETviRyhqEC8LUE7/IZQExOTxMANj3KjTofYTkFNpBY67qaVrT41YccA==}
 
-  '@tanstack/svelte-query-devtools@6.1.43':
-    resolution: {integrity: sha512-wd7G4rcH5VPj+xu2LH3pjfv1T82nwOJy532Mz7MTkG1DCCmfIcuoxk935yHhUnNuKZeQauRH2/hC6vx4qVTvfQ==}
+  '@tanstack/svelte-query-devtools@6.1.48':
+    resolution: {integrity: sha512-r/CJU+w8Hu7LcI/ktNv3B7RGM7uBBjj0mwklbn4a6pVh018KK9xNdGWIuhHzdGzKlhhX9n6mdLj/sdSVZ7DI4A==}
     peerDependencies:
-      '@tanstack/svelte-query': ^6.1.43
+      '@tanstack/svelte-query': ^6.1.48
       svelte: ^5.25.0
 
   '@tanstack/svelte-query@6.1.43':
@@ -2574,6 +2574,7 @@ packages:
   isomorphic-dompurify@3.22.0:
     resolution: {integrity: sha512-cz/BkSODnQir4IV2quqbuEHhAGz4MAYGvhoemsxuwMpY/oZbRHlNjPLPyIQ0fdULiwDPUE+OHPwWb6XTEiNk1A==}
     engines: {node: ^22.22.2 || ^24.15.0 || >=26.0.0}
+    deprecated: Raised the minimum Node.js version (breaking) without a major bump. Use 4.x for the same code with correct semver, or pin 3.19.0 for Node < 22.22.2.
 
   jiti@2.6.1:
     resolution: {integrity: sha512-ekilCSN1jwRvIbgeg/57YFh8qQDNbwDb9xT/qu2DAHbFFZUicIl4ygVaAvzveMhMVr3LnpSKTNnwt8PoOfmKhQ==}
@@ -4501,13 +4502,13 @@ snapshots:
 
   '@tanstack/query-core@5.102.3': {}
 
-  '@tanstack/query-devtools@5.102.3': {}
+  '@tanstack/query-devtools@5.102.8': {}
 
   '@tanstack/store@0.11.1': {}
 
-  '@tanstack/svelte-query-devtools@6.1.43(@tanstack/svelte-query@6.1.43(svelte@5.56.10))(svelte@5.56.10)':
+  '@tanstack/svelte-query-devtools@6.1.48(@tanstack/svelte-query@6.1.43(svelte@5.56.10))(svelte@5.56.10)':
     dependencies:
-      '@tanstack/query-devtools': 5.102.3
+      '@tanstack/query-devtools': 5.102.8
       '@tanstack/svelte-query': 6.1.43(svelte@5.56.10)
       esm-env: 1.2.2
       svelte: 5.56.10
