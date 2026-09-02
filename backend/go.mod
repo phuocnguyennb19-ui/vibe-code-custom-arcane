@@ -35,7 +35,7 @@ require (
 	github.com/getarcaneapp/arcane/types/v2 v2.9.0
 	github.com/go-git/go-git/v5 v5.19.2
 	github.com/go-webauthn/webauthn v0.17.4
-	github.com/gofrs/flock v0.13.0
+	github.com/gofrs/flock v0.13.1
 	github.com/golang-jwt/jwt/v5 v5.3.1
 	github.com/google/go-containerregistry v0.22.0
 	github.com/google/uuid v1.6.0
