@@ -21,7 +21,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.107.3
 	github.com/cenkalti/backoff/v5 v5.0.3
 	github.com/coder/websocket v1.8.15
-	github.com/compose-spec/compose-go/v2 v2.14.0
+	github.com/compose-spec/compose-go/v2 v2.15.0
 	github.com/containerd/errdefs v1.0.0
 	github.com/containerd/platforms v1.0.0-rc.5
 	github.com/coreos/go-oidc/v3 v3.20.0
@@ -58,14 +58,14 @@ require (
 	github.com/samber/mo v1.17.0
 	github.com/samber/slog-echo/v2 v2.1.0
 	github.com/shirou/gopsutil/v4 v4.26.7
-	github.com/sirupsen/logrus v1.10.1
+	github.com/sirupsen/logrus v1.10.2
 	github.com/spf13/cobra v1.10.2
 	github.com/stretchr/testify v1.12.1
 	github.com/subosito/gotenv v1.6.0
 	github.com/wneessen/go-mail v0.8.1
 	go.getarcane.app/acfs v0.5.0
 	go.getarcane.app/builds v0.4.0
-	go.getarcane.app/docker/convert v0.3.0
+	go.getarcane.app/docker/convert v0.3.1
 	go.getarcane.app/kit v0.1.0
 	go.getarcane.app/streams v0.4.2
 	go.getarcane.app/sys/cgroup v0.2.0
@@ -246,7 +246,7 @@ require (
 	github.com/samber/go-singleflightx v0.3.2 // indirect
 	github.com/samber/lo v1.53.0 // indirect
 	github.com/samber/oops v1.18.1 // indirect
-	github.com/santhosh-tekuri/jsonschema/v6 v6.0.2 // indirect
+	github.com/santhosh-tekuri/jsonschema/v6 v6.0.3 // indirect
 	github.com/secure-systems-lab/go-securesystemslib v0.11.0 // indirect
 	github.com/sergi/go-diff v1.4.0 // indirect
 	github.com/sethvargo/go-retry v0.4.0 // indirect
