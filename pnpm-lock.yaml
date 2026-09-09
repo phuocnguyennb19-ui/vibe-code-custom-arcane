@@ -263,8 +263,8 @@ importers:
         specifier: ^1.5.0
         version: 1.5.0(svelte@5.56.10)
       svelte-check-rs:
-        specifier: ^0.11.0
-        version: 0.11.0(@typescript/native-preview@7.0.0-dev.20260707.2)
+        specifier: ^0.11.2
+        version: 0.11.2(@typescript/native-preview@7.0.0-dev.20260707.2)
       svelte-toolbelt:
         specifier: ^0.10.6
         version: 0.10.6(@sveltejs/kit@3.0.0-next.25(@sveltejs/vite-plugin-svelte@7.3.0(@voidzero-dev/vite-plus-core@0.3.0(@types/node@26.3.0)(@typescript/typescript6@6.0.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.12)(yaml@2.9.0))(svelte@5.56.10))(@typescript/typescript6@6.0.2)(@voidzero-dev/vite-plus-core@0.3.0(@types/node@26.3.0)(@typescript/typescript6@6.0.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.12)(yaml@2.9.0))(svelte@5.56.10))(svelte@5.56.10)
@@ -1381,30 +1381,35 @@ packages:
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
 
-  '@svelte-check-rs/darwin-arm64@0.11.0':
-    resolution: {integrity: sha512-IYOiE7p574g/6YT7aEBD+pU9dcmzQEA2usDblWfY4lF/JxmvxGH+YIJVzZjl3bd4vIL3qRq3tCWsNmkDIrKwaQ==}
+  '@svelte-check-rs/darwin-arm64@0.11.2':
+    resolution: {integrity: sha512-YntN5jvpX9RIHxcZ1panDpcQgtQqSygxq1eJoJse8BdqG8I+mYQobrUFfGiQwgOonYoig9AFp+4aih2wSYToBQ==}
     cpu: [arm64]
     os: [darwin]
+    deprecated: 'Sunsetted September 2026; no longer maintained. Use official svelte-check: https://github.com/sveltejs/language-tools/tree/master/packages/svelte-check. Background: https://github.com/pheuter/svelte-check-rs#why-sunset-it-now'
 
-  '@svelte-check-rs/darwin-x64@0.11.0':
-    resolution: {integrity: sha512-QecVvBlB3IwkteOdgR59gqQpPq7wHNDmuADSwtfFNtszwNqsEYHBsGwU8+gmTFaQxx13mWHei9ZLGeoZQCZI4A==}
+  '@svelte-check-rs/darwin-x64@0.11.2':
+    resolution: {integrity: sha512-Fb9lju0gmcdKGwn1Fotr4gSkVy4USLk5WqjH8SPQ5z4hAPsvxf/IQJvKoc686gZMrpsm9FnG/measmj87+R71w==}
     cpu: [x64]
     os: [darwin]
+    deprecated: 'Sunsetted September 2026; no longer maintained. Use official svelte-check: https://github.com/sveltejs/language-tools/tree/master/packages/svelte-check. Background: https://github.com/pheuter/svelte-check-rs#why-sunset-it-now'
 
-  '@svelte-check-rs/linux-arm64@0.11.0':
-    resolution: {integrity: sha512-qPp78tW6y/EbEljN2RtlwCVyZvcwoxN7tJ9Mo77dHejNdC7NOsW86HRCdcD88OUUq5BcbF+ivrZWtnoUzJ281w==}
+  '@svelte-check-rs/linux-arm64@0.11.2':
+    resolution: {integrity: sha512-g0E772T7NQGgnXqCgSHftskBdZpqwmtC1C+/tqBkP4EOQmcZR56b85WHWlveXryRJeNQnjhyqGAd4J4XdGBhyw==}
     cpu: [arm64]
     os: [linux]
+    deprecated: 'Sunsetted September 2026; no longer maintained. Use official svelte-check: https://github.com/sveltejs/language-tools/tree/master/packages/svelte-check. Background: https://github.com/pheuter/svelte-check-rs#why-sunset-it-now'
 
-  '@svelte-check-rs/linux-x64@0.11.0':
-    resolution: {integrity: sha512-jrG+RyFRsvvJ+G5Fo2jc0n7KqyAhq/h+p5iZqaA01bfzjyKxpEwgcU/2JFNDLzFq5NTqJ9NdKOE4Tqe+bkZA9A==}
+  '@svelte-check-rs/linux-x64@0.11.2':
+    resolution: {integrity: sha512-AdVdWkM/Y0EeLnwbqqhwuAn3//EITVdXzRFzEgSvDfYAU2BxMx6ltWDPIFqDelTPFPfYiL17WCYhb7ysedUB+w==}
     cpu: [x64]
     os: [linux]
+    deprecated: 'Sunsetted September 2026; no longer maintained. Use official svelte-check: https://github.com/sveltejs/language-tools/tree/master/packages/svelte-check. Background: https://github.com/pheuter/svelte-check-rs#why-sunset-it-now'
 
-  '@svelte-check-rs/win32-x64@0.11.0':
-    resolution: {integrity: sha512-IoZdfacoUVvsugvJK1eb25hkSLXZ7KdoRTUllzpnopB88w9FZz/J4okVb6JtTnzOxX1LQ18RBrgk7Ic1ycKpgA==}
+  '@svelte-check-rs/win32-x64@0.11.2':
+    resolution: {integrity: sha512-nkub+2rUnSD78LxwbbbAchhuCpfWySvSmlPUhBwYOU2y8nGT18LgMWLjseEpgpjnQXXuVhvxxOPIdDWtShlaMw==}
     cpu: [x64]
     os: [win32]
+    deprecated: 'Sunsetted September 2026; no longer maintained. Use official svelte-check: https://github.com/sveltejs/language-tools/tree/master/packages/svelte-check. Background: https://github.com/pheuter/svelte-check-rs#why-sunset-it-now'
 
   '@svelte-put/shortcut@4.2.0':
     resolution: {integrity: sha512-hqNLo4yEc++SLgAkZUvuwMxIAsii9qjQtTuzfcYVf3xRxa+0HFcfaWFK7LdU3l+15s9SYVNbPB0qQj9CHFqSuw==}
@@ -2574,6 +2579,7 @@ packages:
   isomorphic-dompurify@3.22.0:
     resolution: {integrity: sha512-cz/BkSODnQir4IV2quqbuEHhAGz4MAYGvhoemsxuwMpY/oZbRHlNjPLPyIQ0fdULiwDPUE+OHPwWb6XTEiNk1A==}
     engines: {node: ^22.22.2 || ^24.15.0 || >=26.0.0}
+    deprecated: Raised the minimum Node.js version (breaking) without a major bump. Use 4.x for the same code with correct semver, or pin 3.19.0 for Node < 22.22.2.
 
   jiti@2.6.1:
     resolution: {integrity: sha512-ekilCSN1jwRvIbgeg/57YFh8qQDNbwDb9xT/qu2DAHbFFZUicIl4ygVaAvzveMhMVr3LnpSKTNnwt8PoOfmKhQ==}
@@ -3182,11 +3188,18 @@ packages:
     resolution: {integrity: sha512-uV+TFRZdXsqXTL2pRvujROjdZQ4RAlBUS5BTh9IGm+jTqQntYThciG/qu57Gs69yjnVUSqdxF9YLmSnpupBW9A==}
     engines: {node: '>=14.0.0'}
 
-  svelte-check-rs@0.11.0:
-    resolution: {integrity: sha512-bqMxNWBwKwb79QSAtfHkn1ka25hTgjJ3bxSaf3sEg5UX3KAFgDaQAS4aK6OSxjCSa78RUH6s0K0hhiyqSu2zmA==}
+  svelte-check-rs@0.11.2:
+    resolution: {integrity: sha512-J9eVqVhFbncvSMrnS8UST3tQZeWuhAxZBGPt7rxTLRus/b6wRfgkAaCsohYTLaG2z5SzSQE00lFALsPMeTu6vA==}
+    deprecated: 'Sunsetted September 2026; no longer maintained. Use official svelte-check: https://github.com/sveltejs/language-tools/tree/master/packages/svelte-check. Background: https://github.com/pheuter/svelte-check-rs#why-sunset-it-now'
     hasBin: true
     peerDependencies:
+      '@typescript/native': '>=7.0.2'
       '@typescript/native-preview': '>=7.0.0-dev.20260707.2'
+    peerDependenciesMeta:
+      '@typescript/native':
+        optional: true
+      '@typescript/native-preview':
+        optional: true
 
   svelte-codemirror-editor@2.1.0:
     resolution: {integrity: sha512-WGkSsIYNpVcOVxaQPkmdBQhaGyKLmg6pgaS/b+7guRb4eikrbXYtvNFuW2AzKJi8ZbLhSngrf3SRiZOuwuskrQ==}
@@ -4372,19 +4385,19 @@ snapshots:
 
   '@standard-schema/spec@1.1.0': {}
 
-  '@svelte-check-rs/darwin-arm64@0.11.0':
+  '@svelte-check-rs/darwin-arm64@0.11.2':
     optional: true
 
-  '@svelte-check-rs/darwin-x64@0.11.0':
+  '@svelte-check-rs/darwin-x64@0.11.2':
     optional: true
 
-  '@svelte-check-rs/linux-arm64@0.11.0':
+  '@svelte-check-rs/linux-arm64@0.11.2':
     optional: true
 
-  '@svelte-check-rs/linux-x64@0.11.0':
+  '@svelte-check-rs/linux-x64@0.11.2':
     optional: true
 
-  '@svelte-check-rs/win32-x64@0.11.0':
+  '@svelte-check-rs/win32-x64@0.11.2':
     optional: true
 
   '@svelte-put/shortcut@4.2.0(svelte@5.56.10)':
@@ -6251,15 +6264,14 @@ snapshots:
   superstruct@2.0.2:
     optional: true
 
-  svelte-check-rs@0.11.0(@typescript/native-preview@7.0.0-dev.20260707.2):
-    dependencies:
-      '@typescript/native-preview': 7.0.0-dev.20260707.2
+  svelte-check-rs@0.11.2(@typescript/native-preview@7.0.0-dev.20260707.2):
     optionalDependencies:
-      '@svelte-check-rs/darwin-arm64': 0.11.0
-      '@svelte-check-rs/darwin-x64': 0.11.0
-      '@svelte-check-rs/linux-arm64': 0.11.0
-      '@svelte-check-rs/linux-x64': 0.11.0
-      '@svelte-check-rs/win32-x64': 0.11.0
+      '@svelte-check-rs/darwin-arm64': 0.11.2
+      '@svelte-check-rs/darwin-x64': 0.11.2
+      '@svelte-check-rs/linux-arm64': 0.11.2
+      '@svelte-check-rs/linux-x64': 0.11.2
+      '@svelte-check-rs/win32-x64': 0.11.2
+      '@typescript/native-preview': 7.0.0-dev.20260707.2
 
   svelte-codemirror-editor@2.1.0(codemirror@6.0.2)(svelte@5.56.10):
     dependencies:
