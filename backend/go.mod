@@ -40,7 +40,7 @@ require (
 	github.com/google/go-containerregistry v0.22.0
 	github.com/google/uuid v1.6.0
 	github.com/jinzhu/copier v0.4.0
-	github.com/klauspost/compress v1.19.2
+	github.com/klauspost/compress v1.20.0
 	github.com/labstack/echo/v5 v5.3.1
 	github.com/libtnb/sqlite v1.2.2
 	github.com/lmittmann/tint v1.2.0
