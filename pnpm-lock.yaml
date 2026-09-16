@@ -57,11 +57,11 @@ importers:
         specifier: ^19.2.8
         version: 19.2.8
       react-dom:
-        specifier: ^19.2.8
-        version: 19.2.8(react@19.2.8)
+        specifier: ^19.3.0
+        version: 19.3.0(react@19.2.8)
       react-email:
         specifier: 6.9.2
-        version: 6.9.2(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+        version: 6.9.2(react-dom@19.3.0(react@19.2.8))(react@19.2.8)
       tailwind-merge:
         specifier: ^3.6.0
         version: 3.6.0
@@ -73,8 +73,8 @@ importers:
         specifier: ^19.2.18
         version: 19.2.18
       '@types/react-dom':
-        specifier: ^19.2.5
-        version: 19.2.5(@types/react@19.2.18)
+        specifier: ^19.3.0
+        version: 19.3.0(@types/react@19.2.18)
       tsx:
         specifier: ^4.23.12
         version: 4.23.12
@@ -1385,26 +1385,31 @@ packages:
     resolution: {integrity: sha512-IYOiE7p574g/6YT7aEBD+pU9dcmzQEA2usDblWfY4lF/JxmvxGH+YIJVzZjl3bd4vIL3qRq3tCWsNmkDIrKwaQ==}
     cpu: [arm64]
     os: [darwin]
+    deprecated: 'Sunsetted September 2026; no longer maintained. Use official svelte-check: https://github.com/sveltejs/language-tools/tree/master/packages/svelte-check. Background: https://github.com/pheuter/svelte-check-rs#why-sunset-it-now'
 
   '@svelte-check-rs/darwin-x64@0.11.0':
     resolution: {integrity: sha512-QecVvBlB3IwkteOdgR59gqQpPq7wHNDmuADSwtfFNtszwNqsEYHBsGwU8+gmTFaQxx13mWHei9ZLGeoZQCZI4A==}
     cpu: [x64]
     os: [darwin]
+    deprecated: 'Sunsetted September 2026; no longer maintained. Use official svelte-check: https://github.com/sveltejs/language-tools/tree/master/packages/svelte-check. Background: https://github.com/pheuter/svelte-check-rs#why-sunset-it-now'
 
   '@svelte-check-rs/linux-arm64@0.11.0':
     resolution: {integrity: sha512-qPp78tW6y/EbEljN2RtlwCVyZvcwoxN7tJ9Mo77dHejNdC7NOsW86HRCdcD88OUUq5BcbF+ivrZWtnoUzJ281w==}
     cpu: [arm64]
     os: [linux]
+    deprecated: 'Sunsetted September 2026; no longer maintained. Use official svelte-check: https://github.com/sveltejs/language-tools/tree/master/packages/svelte-check. Background: https://github.com/pheuter/svelte-check-rs#why-sunset-it-now'
 
   '@svelte-check-rs/linux-x64@0.11.0':
     resolution: {integrity: sha512-jrG+RyFRsvvJ+G5Fo2jc0n7KqyAhq/h+p5iZqaA01bfzjyKxpEwgcU/2JFNDLzFq5NTqJ9NdKOE4Tqe+bkZA9A==}
     cpu: [x64]
     os: [linux]
+    deprecated: 'Sunsetted September 2026; no longer maintained. Use official svelte-check: https://github.com/sveltejs/language-tools/tree/master/packages/svelte-check. Background: https://github.com/pheuter/svelte-check-rs#why-sunset-it-now'
 
   '@svelte-check-rs/win32-x64@0.11.0':
     resolution: {integrity: sha512-IoZdfacoUVvsugvJK1eb25hkSLXZ7KdoRTUllzpnopB88w9FZz/J4okVb6JtTnzOxX1LQ18RBrgk7Ic1ycKpgA==}
     cpu: [x64]
     os: [win32]
+    deprecated: 'Sunsetted September 2026; no longer maintained. Use official svelte-check: https://github.com/sveltejs/language-tools/tree/master/packages/svelte-check. Background: https://github.com/pheuter/svelte-check-rs#why-sunset-it-now'
 
   '@svelte-put/shortcut@4.2.0':
     resolution: {integrity: sha512-hqNLo4yEc++SLgAkZUvuwMxIAsii9qjQtTuzfcYVf3xRxa+0HFcfaWFK7LdU3l+15s9SYVNbPB0qQj9CHFqSuw==}
@@ -1625,10 +1630,10 @@ packages:
   '@types/node@26.3.0':
     resolution: {integrity: sha512-L3fgrnchriRC2ExBflb8j4uZZURHZfQsmQeyVzhjcHW4kkwVyo8/0h1B2MVzMTrYUJYu6G7EWs14hW/L9putqw==}
 
-  '@types/react-dom@19.2.5':
-    resolution: {integrity: sha512-fMPwH9v7r/pp43yUd2/Mbiex5KouJwwR3dzHkhLREUC6764VyDsqxhAxv6OFEYR1RhjOyD1naqba8ECDBe7ZQg==}
+  '@types/react-dom@19.3.0':
+    resolution: {integrity: sha512-ZI7bU42mZXXKHn/qNLEw2IrbiINU7X5+vfgdixBHkCNpYWXjKgfQ/P+uyGb5CjOLB9UcnTeg3rylQtV2hym44Q==}
     peerDependencies:
-      '@types/react': ^19.2.0
+      '@types/react': ^19.3.0
 
   '@types/react@19.2.18':
     resolution: {integrity: sha512-AnzbBERsrLKtk2XSfTbYRLjQPdy116Sty4q+T+Bp3IC4l6jNBvreVPAHmpq9qhXQM7CXZPjLVmGMw9sy+hxQ3w==}
@@ -2574,6 +2579,7 @@ packages:
   isomorphic-dompurify@3.22.0:
     resolution: {integrity: sha512-cz/BkSODnQir4IV2quqbuEHhAGz4MAYGvhoemsxuwMpY/oZbRHlNjPLPyIQ0fdULiwDPUE+OHPwWb6XTEiNk1A==}
     engines: {node: ^22.22.2 || ^24.15.0 || >=26.0.0}
+    deprecated: Raised the minimum Node.js version (breaking) without a major bump. Use 4.x for the same code with correct semver, or pin 3.19.0 for Node < 22.22.2.
 
   jiti@2.6.1:
     resolution: {integrity: sha512-ekilCSN1jwRvIbgeg/57YFh8qQDNbwDb9xT/qu2DAHbFFZUicIl4ygVaAvzveMhMVr3LnpSKTNnwt8PoOfmKhQ==}
@@ -3031,10 +3037,10 @@ packages:
   quansync@0.2.11:
     resolution: {integrity: sha512-AifT7QEbW9Nri4tAwR5M/uzpBuqfZf+zwaEM/QkzEjj7NBuFD2rBuy0K3dE+8wltbezDV7JMA0WfnCPYRSYbXA==}
 
-  react-dom@19.2.8:
-    resolution: {integrity: sha512-rVprimfGBG3DR+Tq0IQG2DT5PxKth1WIGDmj5yPmlzr4YBe7uyE+Du4oVqTDXZSHGGGXRtTJEGSSePyQCMBglQ==}
+  react-dom@19.3.0:
+    resolution: {integrity: sha512-JDk8dgif51OjFoDE70+OT9ICyYr+69HlmihNwp1+Nsfbna3t5sIiCa9ZJktDmQ4/1b/rn26hIAR2uYXDMr5r0Q==}
     peerDependencies:
-      react: ^19.2.8
+      react: ^19.3.0
 
   react-email@6.9.2:
     resolution: {integrity: sha512-A6SiRdH1U7qJcfgpaJ1BYGud8GbnPwDw61l3PP3JR1qMAmBgTlL02UuCPwPOClwc1x+saUU9OxJfPQHMNaTBMA==}
@@ -3109,8 +3115,8 @@ packages:
     resolution: {integrity: sha512-xAg7SOnEhrm5zI3puOOKyy1OMcMlIJZYNJY7xLBwSze0UjhPLnWfj2GF2EpT0jmzaJKIWKHLsaSSajf35bcYnA==}
     engines: {node: '>=v12.22.7'}
 
-  scheduler@0.27.0:
-    resolution: {integrity: sha512-eNv+WrVbKu1f3vbYJT/xtiF5syA5HPIMtf9IgY/nKg0sWqzAUEvqY/xm7OcZc/qafLx/iO9FgOmeSAp4v5ti/Q==}
+  scheduler@0.28.0:
+    resolution: {integrity: sha512-juorfCmIkIw8tT+p5BXSm6PJjQF/ycEYmKyzURCIt/RaZIhL+PulbQ9Yu2z1HdOJDdqDTlxA1+xKBmHXJsczAw==}
 
   selderee@0.11.0:
     resolution: {integrity: sha512-5TF+l7p4+OsnP8BCCvSyZiSPc4x4//p5uPwK8TCnVPJYRmU2aYKMpOXvw8zM5a5JvuuCGN1jmsMwuU2W02ukfA==}
@@ -3184,6 +3190,7 @@ packages:
 
   svelte-check-rs@0.11.0:
     resolution: {integrity: sha512-bqMxNWBwKwb79QSAtfHkn1ka25hTgjJ3bxSaf3sEg5UX3KAFgDaQAS4aK6OSxjCSa78RUH6s0K0hhiyqSu2zmA==}
+    deprecated: 'Sunsetted September 2026; no longer maintained. Use official svelte-check: https://github.com/sveltejs/language-tools/tree/master/packages/svelte-check. Background: https://github.com/pheuter/svelte-check-rs#why-sunset-it-now'
     hasBin: true
     peerDependencies:
       '@typescript/native-preview': '>=7.0.0-dev.20260707.2'
@@ -4304,14 +4311,14 @@ snapshots:
   '@poppinss/macroable@1.1.2':
     optional: true
 
-  '@react-email/render@2.1.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)':
+  '@react-email/render@2.1.0(react-dom@19.3.0(react@19.2.8))(react@19.2.8)':
     dependencies:
       entities: 4.5.0
       html-to-text: 9.0.5
       html5parser: 3.0.0
       prettier: 3.9.6
       react: 19.2.8
-      react-dom: 19.2.8(react@19.2.8)
+      react-dom: 19.3.0(react@19.2.8)
 
   '@rolldown/binding-android-arm64@1.2.3':
     optional: true
@@ -4589,7 +4596,7 @@ snapshots:
     dependencies:
       undici-types: 8.3.0
 
-  '@types/react-dom@19.2.5(@types/react@19.2.18)':
+  '@types/react-dom@19.3.0(@types/react@19.2.18)':
     dependencies:
       '@types/react': 19.2.18
 
@@ -6060,16 +6067,16 @@ snapshots:
 
   quansync@0.2.11: {}
 
-  react-dom@19.2.8(react@19.2.8):
+  react-dom@19.3.0(react@19.2.8):
     dependencies:
       react: 19.2.8
-      scheduler: 0.27.0
+      scheduler: 0.28.0
 
-  react-email@6.9.2(react-dom@19.2.8(react@19.2.8))(react@19.2.8):
+  react-email@6.9.2(react-dom@19.3.0(react@19.2.8))(react@19.2.8):
     dependencies:
       '@babel/parser': 7.29.2
       '@babel/traverse': 7.29.0
-      '@react-email/render': 2.1.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+      '@react-email/render': 2.1.0(react-dom@19.3.0(react@19.2.8))(react@19.2.8)
       chokidar: 4.0.3
       commander: 13.1.0
       conf: 15.1.0
@@ -6087,7 +6094,7 @@ snapshots:
       prismjs: 1.30.0
       prompts: 2.4.2
       react: 19.2.8
-      react-dom: 19.2.8(react@19.2.8)
+      react-dom: 19.3.0(react@19.2.8)
       socket.io: 4.8.3
       tailwindcss: 4.3.3
       tsconfig-paths: 4.2.0
@@ -6167,7 +6174,7 @@ snapshots:
     dependencies:
       xmlchars: 2.2.0
 
-  scheduler@0.27.0: {}
+  scheduler@0.28.0: {}
 
   selderee@0.11.0:
     dependencies:
