@@ -230,8 +230,8 @@ importers:
         specifier: ^2.2.520
         version: 2.2.520
       '@inlang/paraglide-js':
-        specifier: 2.24.1
-        version: 2.24.1(@typescript/typescript6@6.0.2)(@voidzero-dev/vite-plus-core@0.3.0(@types/node@26.3.0)(@typescript/typescript6@6.0.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.12)(yaml@2.9.0))
+        specifier: 2.25.2
+        version: 2.25.2(@typescript/typescript6@6.0.2)(@voidzero-dev/vite-plus-core@0.3.0(@types/node@26.3.0)(@typescript/typescript6@6.0.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.12)(yaml@2.9.0))
       '@sveltejs/adapter-static':
         specifier: '>=4.0.0-next.2'
         version: 4.0.0-next.4(@sveltejs/kit@3.0.0-next.25(@sveltejs/vite-plugin-svelte@7.3.0(@voidzero-dev/vite-plus-core@0.3.0(@types/node@26.3.0)(@typescript/typescript6@6.0.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.12)(yaml@2.9.0))(svelte@5.56.10))(@typescript/typescript6@6.0.2)(@voidzero-dev/vite-plus-core@0.3.0(@types/node@26.3.0)(@typescript/typescript6@6.0.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.12)(yaml@2.9.0))(svelte@5.56.10))
@@ -872,8 +872,8 @@ packages:
   '@iconify/utils@3.1.3':
     resolution: {integrity: sha512-LPKOXPn/zV+zis1oOfGWogaXVpqUybF3ZS6SCZIsz8vg0ivVp9+fVqyYB7xq0aiST/VhUQYGO1qo6uoYSiEJqw==}
 
-  '@inlang/paraglide-js@2.24.1':
-    resolution: {integrity: sha512-r/gak0kY2yuqgz0RFxccb7A89fgcLpiqoEbYfv3nxlqyhdW2v8NajE1A2xiXrv/iAo7WCX4zk8EJAhL69rcp0g==}
+  '@inlang/paraglide-js@2.25.2':
+    resolution: {integrity: sha512-kbCTHFToIUxecg55BZ596w/Ve7xKruwi/GXeApVa5qMemm+hGQFwXo6ai16/XYztQbjM0wM3oUH/83p9BYIc5g==}
     hasBin: true
     peerDependencies:
       typescript: '>=5.6'
@@ -887,8 +887,8 @@ packages:
   '@inlang/recommend-sherlock@0.2.1':
     resolution: {integrity: sha512-ckv8HvHy/iTqaVAEKrr+gnl+p3XFNwe5D2+6w6wJk2ORV2XkcRkKOJ/XsTUJbPSiyi4PI+p+T3bqbmNx/rDUlg==}
 
-  '@inlang/sdk@3.0.1':
-    resolution: {integrity: sha512-QvyMYjCqF7CnrTp8ZaPiuwpmxsoQPIDgfqGeWfqi4FDxBREye4QdyaZS4DGwIlCZXybF/YMj0TtL2uBfbmajug==}
+  '@inlang/sdk@3.0.5':
+    resolution: {integrity: sha512-kJBivhj3AeM8Mt1AnmLt48B+OYMGkXXu7Duw+UcWmk4VxqqF/Glm9y/BCcWQWMGi6mj7U40qvW7y7wVyHeVhMA==}
     engines: {node: '>=20.0.0'}
 
   '@internationalized/date@3.12.3':
@@ -937,28 +937,28 @@ packages:
   '@lezer/yaml@1.0.4':
     resolution: {integrity: sha512-2lrrHqxalACEbxIbsjhqGpSW8kWpUKuY6RHgnSAFZa6qK62wvnPxA8hGOwOoDbwHcOFs5M4o27mjGu+P7TvBmw==}
 
-  '@lix-js/sdk-darwin-arm64@0.12.2':
-    resolution: {integrity: sha512-0mBRIfgZfaey1/d0mijv7fBIGPeaTIMCDOPr3s4RUlHy/j+llNmAyDS2iNlalFh9nQGys7JNzo2Hv3FQbdKmug==}
+  '@lix-js/sdk-darwin-arm64@0.16.1':
+    resolution: {integrity: sha512-BKUerxQ5DV1o9L8n3uxZMTdUyjNGDLyh4zoYCQ1sakeAa2mQbb4aYnhYrpJT8Ob+zA5B/IZMQfphz6zOSrXNcw==}
     cpu: [arm64]
     os: [darwin]
 
-  '@lix-js/sdk-linux-arm64@0.12.2':
-    resolution: {integrity: sha512-817uJlC2KTIKDaqQvALTu03hEJpNxEA+9d33FNs8sOm9pAguOWiAK1zGA2SD0IgS9Q8NqQeABLb84OesW5/NCA==}
+  '@lix-js/sdk-linux-arm64@0.16.1':
+    resolution: {integrity: sha512-rJ5qtFStX+BlU7NXtTVJjRl5mumzFRJs6UcJTui/ib9M6d1nw9wTtRwB/DuFACExRrnDQkmqL9W7Ulm14Mluyw==}
     cpu: [arm64]
     os: [linux]
 
-  '@lix-js/sdk-linux-x64@0.12.2':
-    resolution: {integrity: sha512-rA7lw1jBr6azBHR5Sh/RzOKSAlRcmVea7VeI4VQqpy0PZs+5tWoK9iVC41V4oCIKssRv2wrkbvyP3CqInhoknQ==}
+  '@lix-js/sdk-linux-x64@0.16.1':
+    resolution: {integrity: sha512-xZxSKMiGFWFXbV+QFEfa0K+EBvgE7WIn32imVKQC/ZMfUnPH4SmdN2FbdS7qe2TAKdx38qUdI8mvcnrhNZ8nAw==}
     cpu: [x64]
     os: [linux]
 
-  '@lix-js/sdk-win32-x64@0.12.2':
-    resolution: {integrity: sha512-y9IikCdrYx6cFnfqeUvYKPw6KBY016U2F2wYDILYZDZndccK2xw7lJChX163w9PewMwY3GsC/UqRBi5yqFAJ2w==}
+  '@lix-js/sdk-win32-x64@0.16.1':
+    resolution: {integrity: sha512-1H84YqSd6VhzyUl5hdW4106QCnhO0NE9xRfT6ci6JvU/opNC9JWiOyKLboqlJWkupSIW9VlfL5Cwza6fZs5mLw==}
     cpu: [x64]
     os: [win32]
 
-  '@lix-js/sdk@0.12.2':
-    resolution: {integrity: sha512-sKGOPdVKdChS5q60F4VQE4ZTcf0B7ZJM3KGCVQFN2suVNKhHcllbsCiwRYuM5WL7Yu1ql7YexltJ2FCsDqKePg==}
+  '@lix-js/sdk@0.16.1':
+    resolution: {integrity: sha512-TphGW47tPJ52n8Umk46j56veeaz/uLoS9m1pWYWs0UnnbItsntu6hW/alxW/OX1WZA7vXk7d1OP6qIbmluc+kA==}
 
   '@marijn/find-cluster-break@1.0.3':
     resolution: {integrity: sha512-FY+MKLBoTsLNJF/eLWaOsXGdz6uh3Iu1axjPf6TUq92IYumcTcXWHoS747JARLkcdlJ/Waiaxc5wQfFO8jC6NA==}
@@ -1374,10 +1374,6 @@ packages:
   '@socket.io/component-emitter@3.1.2':
     resolution: {integrity: sha512-9BCxFwvbGg/RsZK9tjXd8s4UcwR0MWeFQ1XEKIQVVvAGJyINdrqKMcTRyLoK8Rse1GjzLV9cwjWV1olXRWEXVA==}
 
-  '@sqlite.org/sqlite-wasm@3.48.0-build4':
-    resolution: {integrity: sha512-hI6twvUkzOmyGZhQMza1gpfqErZxXRw6JEsiVjUbo7tFanVD+8Oil0Ih3l2nGzHdxPI41zFmfUQG7GHqhciKZQ==}
-    hasBin: true
-
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
 
@@ -1385,26 +1381,31 @@ packages:
     resolution: {integrity: sha512-IYOiE7p574g/6YT7aEBD+pU9dcmzQEA2usDblWfY4lF/JxmvxGH+YIJVzZjl3bd4vIL3qRq3tCWsNmkDIrKwaQ==}
     cpu: [arm64]
     os: [darwin]
+    deprecated: 'Sunsetted September 2026; no longer maintained. Use official svelte-check: https://github.com/sveltejs/language-tools/tree/master/packages/svelte-check. Background: https://github.com/pheuter/svelte-check-rs#why-sunset-it-now'
 
   '@svelte-check-rs/darwin-x64@0.11.0':
     resolution: {integrity: sha512-QecVvBlB3IwkteOdgR59gqQpPq7wHNDmuADSwtfFNtszwNqsEYHBsGwU8+gmTFaQxx13mWHei9ZLGeoZQCZI4A==}
     cpu: [x64]
     os: [darwin]
+    deprecated: 'Sunsetted September 2026; no longer maintained. Use official svelte-check: https://github.com/sveltejs/language-tools/tree/master/packages/svelte-check. Background: https://github.com/pheuter/svelte-check-rs#why-sunset-it-now'
 
   '@svelte-check-rs/linux-arm64@0.11.0':
     resolution: {integrity: sha512-qPp78tW6y/EbEljN2RtlwCVyZvcwoxN7tJ9Mo77dHejNdC7NOsW86HRCdcD88OUUq5BcbF+ivrZWtnoUzJ281w==}
     cpu: [arm64]
     os: [linux]
+    deprecated: 'Sunsetted September 2026; no longer maintained. Use official svelte-check: https://github.com/sveltejs/language-tools/tree/master/packages/svelte-check. Background: https://github.com/pheuter/svelte-check-rs#why-sunset-it-now'
 
   '@svelte-check-rs/linux-x64@0.11.0':
     resolution: {integrity: sha512-jrG+RyFRsvvJ+G5Fo2jc0n7KqyAhq/h+p5iZqaA01bfzjyKxpEwgcU/2JFNDLzFq5NTqJ9NdKOE4Tqe+bkZA9A==}
     cpu: [x64]
     os: [linux]
+    deprecated: 'Sunsetted September 2026; no longer maintained. Use official svelte-check: https://github.com/sveltejs/language-tools/tree/master/packages/svelte-check. Background: https://github.com/pheuter/svelte-check-rs#why-sunset-it-now'
 
   '@svelte-check-rs/win32-x64@0.11.0':
     resolution: {integrity: sha512-IoZdfacoUVvsugvJK1eb25hkSLXZ7KdoRTUllzpnopB88w9FZz/J4okVb6JtTnzOxX1LQ18RBrgk7Ic1ycKpgA==}
     cpu: [x64]
     os: [win32]
+    deprecated: 'Sunsetted September 2026; no longer maintained. Use official svelte-check: https://github.com/sveltejs/language-tools/tree/master/packages/svelte-check. Background: https://github.com/pheuter/svelte-check-rs#why-sunset-it-now'
 
   '@svelte-put/shortcut@4.2.0':
     resolution: {integrity: sha512-hqNLo4yEc++SLgAkZUvuwMxIAsii9qjQtTuzfcYVf3xRxa+0HFcfaWFK7LdU3l+15s9SYVNbPB0qQj9CHFqSuw==}
@@ -2574,6 +2575,7 @@ packages:
   isomorphic-dompurify@3.22.0:
     resolution: {integrity: sha512-cz/BkSODnQir4IV2quqbuEHhAGz4MAYGvhoemsxuwMpY/oZbRHlNjPLPyIQ0fdULiwDPUE+OHPwWb6XTEiNk1A==}
     engines: {node: ^22.22.2 || ^24.15.0 || >=26.0.0}
+    deprecated: Raised the minimum Node.js version (breaking) without a major bump. Use 4.x for the same code with correct semver, or pin 3.19.0 for Node < 22.22.2.
 
   jiti@2.6.1:
     resolution: {integrity: sha512-ekilCSN1jwRvIbgeg/57YFh8qQDNbwDb9xT/qu2DAHbFFZUicIl4ygVaAvzveMhMVr3LnpSKTNnwt8PoOfmKhQ==}
@@ -3151,11 +3153,6 @@ packages:
     resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
     engines: {node: '>=0.10.0'}
 
-  sqlite-wasm-kysely@0.3.0:
-    resolution: {integrity: sha512-TzjBNv7KwRw6E3pdKdlRyZiTmUIE0UttT/Sl56MVwVARl/u5gp978KepazCJZewFUnlWHz9i3NQd4kOtP/Afdg==}
-    peerDependencies:
-      kysely: '>=0.28.14'
-
   stackback@0.0.2:
     resolution: {integrity: sha512-1XMJE5fQo1jGH6Y/7ebnwPOBEkIEnT4QF32d5R1+VXdXveM0IBMJt8zfaxX1P3QhVwrYe+576+jkANtSS2mBbw==}
 
@@ -3184,6 +3181,7 @@ packages:
 
   svelte-check-rs@0.11.0:
     resolution: {integrity: sha512-bqMxNWBwKwb79QSAtfHkn1ka25hTgjJ3bxSaf3sEg5UX3KAFgDaQAS4aK6OSxjCSa78RUH6s0K0hhiyqSu2zmA==}
+    deprecated: 'Sunsetted September 2026; no longer maintained. Use official svelte-check: https://github.com/sveltejs/language-tools/tree/master/packages/svelte-check. Background: https://github.com/pheuter/svelte-check-rs#why-sunset-it-now'
     hasBin: true
     peerDependencies:
       '@typescript/native-preview': '>=7.0.0-dev.20260707.2'
@@ -4039,15 +4037,17 @@ snapshots:
       '@iconify/types': 2.0.0
       import-meta-resolve: 4.2.0
 
-  '@inlang/paraglide-js@2.24.1(@typescript/typescript6@6.0.2)(@voidzero-dev/vite-plus-core@0.3.0(@types/node@26.3.0)(@typescript/typescript6@6.0.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.12)(yaml@2.9.0))':
+  '@inlang/paraglide-js@2.25.2(@typescript/typescript6@6.0.2)(@voidzero-dev/vite-plus-core@0.3.0(@types/node@26.3.0)(@typescript/typescript6@6.0.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.12)(yaml@2.9.0))':
     dependencies:
       '@inlang/recommend-sherlock': 0.2.1
-      '@inlang/sdk': 3.0.1
+      '@inlang/sdk': 3.0.5
       commander: 11.1.0
       consola: 3.4.0
+      jiti: 2.7.0
       json5: 2.2.3
       unplugin: 2.3.11
       urlpattern-polyfill: 10.1.0
+      valibot: 1.4.2(@typescript/typescript6@6.0.2)
     optionalDependencies:
       typescript: '@typescript/typescript6@6.0.2'
       vite: '@voidzero-dev/vite-plus-core@0.3.0(@types/node@26.3.0)(@typescript/typescript6@6.0.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.12)(yaml@2.9.0)'
@@ -4056,12 +4056,11 @@ snapshots:
     dependencies:
       comment-json: 4.6.2
 
-  '@inlang/sdk@3.0.1':
+  '@inlang/sdk@3.0.5':
     dependencies:
-      '@lix-js/sdk': 0.12.2
+      '@lix-js/sdk': 0.16.1
       '@sinclair/typebox': 0.31.30
       kysely: 0.29.4
-      sqlite-wasm-kysely: 0.3.0(kysely@0.29.4)
       uuid: 14.0.1
 
   '@internationalized/date@3.12.3':
@@ -4132,26 +4131,26 @@ snapshots:
       '@lezer/highlight': 1.2.3
       '@lezer/lr': 1.4.10
 
-  '@lix-js/sdk-darwin-arm64@0.12.2':
+  '@lix-js/sdk-darwin-arm64@0.16.1':
     optional: true
 
-  '@lix-js/sdk-linux-arm64@0.12.2':
+  '@lix-js/sdk-linux-arm64@0.16.1':
     optional: true
 
-  '@lix-js/sdk-linux-x64@0.12.2':
+  '@lix-js/sdk-linux-x64@0.16.1':
     optional: true
 
-  '@lix-js/sdk-win32-x64@0.12.2':
+  '@lix-js/sdk-win32-x64@0.16.1':
     optional: true
 
-  '@lix-js/sdk@0.12.2':
+  '@lix-js/sdk@0.16.1':
     dependencies:
       fflate: 0.8.3
     optionalDependencies:
-      '@lix-js/sdk-darwin-arm64': 0.12.2
-      '@lix-js/sdk-linux-arm64': 0.12.2
-      '@lix-js/sdk-linux-x64': 0.12.2
-      '@lix-js/sdk-win32-x64': 0.12.2
+      '@lix-js/sdk-darwin-arm64': 0.16.1
+      '@lix-js/sdk-linux-arm64': 0.16.1
+      '@lix-js/sdk-linux-x64': 0.16.1
+      '@lix-js/sdk-win32-x64': 0.16.1
 
   '@marijn/find-cluster-break@1.0.3': {}
 
@@ -4367,8 +4366,6 @@ snapshots:
   '@sinclair/typebox@0.31.30': {}
 
   '@socket.io/component-emitter@3.1.2': {}
-
-  '@sqlite.org/sqlite-wasm@3.48.0-build4': {}
 
   '@standard-schema/spec@1.1.0': {}
 
@@ -6225,11 +6222,6 @@ snapshots:
 
   source-map-js@1.2.1: {}
 
-  sqlite-wasm-kysely@0.3.0(kysely@0.29.4):
-    dependencies:
-      '@sqlite.org/sqlite-wasm': 3.48.0-build4
-      kysely: 0.29.4
-
   stackback@0.0.2: {}
 
   std-env@4.2.0: {}
@@ -6507,7 +6499,6 @@ snapshots:
   valibot@1.4.2(@typescript/typescript6@6.0.2):
     optionalDependencies:
       typescript: '@typescript/typescript6@6.0.2'
-    optional: true
 
   validator@13.15.35:
     optional: true
