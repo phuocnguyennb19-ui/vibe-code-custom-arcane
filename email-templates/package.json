@@ -15,7 +15,7 @@
 		"react": "^19.2.8",
 		"react-dom": "^19.2.8",
 		"react-email": "6.9.2",
-		"tailwind-merge": "^3.6.0"
+		"tailwind-merge": "^3.7.0"
 	},
 	"devDependencies": {
 		"@types/node": "^26.3.0",
