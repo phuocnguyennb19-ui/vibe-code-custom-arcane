@@ -69,7 +69,7 @@ require (
 	go.getarcane.app/kit v0.1.0
 	go.getarcane.app/streams v0.4.2
 	go.getarcane.app/sys/cgroup v0.2.0
-	go.getarcane.app/sys/crypto v0.2.0
+	go.getarcane.app/sys/crypto v0.2.2
 	go.getarcane.app/updater v0.8.0
 	go.uber.org/fx v1.24.0
 	go.yaml.in/yaml/v4 v4.0.0-rc.6
