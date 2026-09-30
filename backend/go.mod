@@ -56,7 +56,7 @@ require (
 	github.com/robfig/cron/v3 v3.0.1
 	github.com/samber/hot v0.13.1
 	github.com/samber/mo v1.17.0
-	github.com/samber/slog-echo/v2 v2.1.0
+	github.com/samber/slog-echo/v2 v2.2.0
 	github.com/shirou/gopsutil/v4 v4.26.7
 	github.com/sirupsen/logrus v1.10.1
 	github.com/spf13/cobra v1.10.2
