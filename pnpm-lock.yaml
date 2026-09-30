@@ -142,8 +142,8 @@ importers:
         specifier: ^3.0.0-next.21
         version: 3.0.0-next.25(@sveltejs/vite-plugin-svelte@7.3.0(@voidzero-dev/vite-plus-core@0.3.0(@types/node@26.3.0)(@typescript/typescript6@6.0.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.12)(yaml@2.9.0))(svelte@5.56.10))(@typescript/typescript6@6.0.2)(@voidzero-dev/vite-plus-core@0.3.0(@types/node@26.3.0)(@typescript/typescript6@6.0.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.12)(yaml@2.9.0))(svelte@5.56.10)
       '@tanstack/svelte-query':
-        specifier: ^6.1.43
-        version: 6.1.43(svelte@5.56.10)
+        specifier: ^6.3.0
+        version: 6.3.0(svelte@5.56.10)
       '@tanstack/svelte-table':
         specifier: ^9.1.2
         version: 9.1.2(svelte@5.56.10)
@@ -243,7 +243,7 @@ importers:
         version: 4.3.3(@voidzero-dev/vite-plus-core@0.3.0(@types/node@26.3.0)(@typescript/typescript6@6.0.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.12)(yaml@2.9.0))
       '@tanstack/svelte-query-devtools':
         specifier: ^6.1.43
-        version: 6.1.43(@tanstack/svelte-query@6.1.43(svelte@5.56.10))(svelte@5.56.10)
+        version: 6.1.43(@tanstack/svelte-query@6.3.0(svelte@5.56.10))(svelte@5.56.10)
       '@types/node':
         specifier: ^26.3.0
         version: 26.3.0
@@ -1385,26 +1385,31 @@ packages:
     resolution: {integrity: sha512-IYOiE7p574g/6YT7aEBD+pU9dcmzQEA2usDblWfY4lF/JxmvxGH+YIJVzZjl3bd4vIL3qRq3tCWsNmkDIrKwaQ==}
     cpu: [arm64]
     os: [darwin]
+    deprecated: 'Sunsetted September 2026; no longer maintained. Use official svelte-check: https://github.com/sveltejs/language-tools/tree/master/packages/svelte-check. Background: https://github.com/pheuter/svelte-check-rs#why-sunset-it-now'
 
   '@svelte-check-rs/darwin-x64@0.11.0':
     resolution: {integrity: sha512-QecVvBlB3IwkteOdgR59gqQpPq7wHNDmuADSwtfFNtszwNqsEYHBsGwU8+gmTFaQxx13mWHei9ZLGeoZQCZI4A==}
     cpu: [x64]
     os: [darwin]
+    deprecated: 'Sunsetted September 2026; no longer maintained. Use official svelte-check: https://github.com/sveltejs/language-tools/tree/master/packages/svelte-check. Background: https://github.com/pheuter/svelte-check-rs#why-sunset-it-now'
 
   '@svelte-check-rs/linux-arm64@0.11.0':
     resolution: {integrity: sha512-qPp78tW6y/EbEljN2RtlwCVyZvcwoxN7tJ9Mo77dHejNdC7NOsW86HRCdcD88OUUq5BcbF+ivrZWtnoUzJ281w==}
     cpu: [arm64]
     os: [linux]
+    deprecated: 'Sunsetted September 2026; no longer maintained. Use official svelte-check: https://github.com/sveltejs/language-tools/tree/master/packages/svelte-check. Background: https://github.com/pheuter/svelte-check-rs#why-sunset-it-now'
 
   '@svelte-check-rs/linux-x64@0.11.0':
     resolution: {integrity: sha512-jrG+RyFRsvvJ+G5Fo2jc0n7KqyAhq/h+p5iZqaA01bfzjyKxpEwgcU/2JFNDLzFq5NTqJ9NdKOE4Tqe+bkZA9A==}
     cpu: [x64]
     os: [linux]
+    deprecated: 'Sunsetted September 2026; no longer maintained. Use official svelte-check: https://github.com/sveltejs/language-tools/tree/master/packages/svelte-check. Background: https://github.com/pheuter/svelte-check-rs#why-sunset-it-now'
 
   '@svelte-check-rs/win32-x64@0.11.0':
     resolution: {integrity: sha512-IoZdfacoUVvsugvJK1eb25hkSLXZ7KdoRTUllzpnopB88w9FZz/J4okVb6JtTnzOxX1LQ18RBrgk7Ic1ycKpgA==}
     cpu: [x64]
     os: [win32]
+    deprecated: 'Sunsetted September 2026; no longer maintained. Use official svelte-check: https://github.com/sveltejs/language-tools/tree/master/packages/svelte-check. Background: https://github.com/pheuter/svelte-check-rs#why-sunset-it-now'
 
   '@svelte-put/shortcut@4.2.0':
     resolution: {integrity: sha512-hqNLo4yEc++SLgAkZUvuwMxIAsii9qjQtTuzfcYVf3xRxa+0HFcfaWFK7LdU3l+15s9SYVNbPB0qQj9CHFqSuw==}
@@ -1541,8 +1546,8 @@ packages:
     peerDependencies:
       vite: ^5.2.0 || ^6 || ^7 || ^8
 
-  '@tanstack/query-core@5.102.3':
-    resolution: {integrity: sha512-5O2VEceonqC4uaTLUGglb0hgPouWCJ4K1ykVWyeV8aThhdNCzwpwu01bYoaRNJ9mgFUXS7Kf9utJ46ysT8m+bw==}
+  '@tanstack/query-core@5.104.0':
+    resolution: {integrity: sha512-JrC2r/JQlXt7khBSdUpsgxNvybzOg+aITa+ARRMlP2AFo93Y8vIqz077rp+e61mJetSZ0T6AJbwW1JHer1vrPQ==}
 
   '@tanstack/query-devtools@5.102.3':
     resolution: {integrity: sha512-J/QKK3J+YuqOY/CQBypJSUGANGcdurFyHP4GZDP90QiB3G/wQVeGamo3zFJ/sTcM2uvF3+V7K3rS521xS8B3lQ==}
@@ -1556,8 +1561,8 @@ packages:
       '@tanstack/svelte-query': ^6.1.43
       svelte: ^5.25.0
 
-  '@tanstack/svelte-query@6.1.43':
-    resolution: {integrity: sha512-EpYdLoIUJ8PCb3StUV8NUiPDvu1VfrETN8t7kpvYCJ2xhbwZfxJu6Kqtf/octjF2dERbYF7bPvlrnGeO8aFUFw==}
+  '@tanstack/svelte-query@6.3.0':
+    resolution: {integrity: sha512-Lzib+G+fGL6tFi8jJ3jfNKuSE94iEgjpSCz6Pdf33na+Bljfnv+r5aArSDwLecYEnZCBb8mS6uJrcfJj3dR6qg==}
     peerDependencies:
       svelte: ^5.25.0
 
@@ -2574,6 +2579,7 @@ packages:
   isomorphic-dompurify@3.22.0:
     resolution: {integrity: sha512-cz/BkSODnQir4IV2quqbuEHhAGz4MAYGvhoemsxuwMpY/oZbRHlNjPLPyIQ0fdULiwDPUE+OHPwWb6XTEiNk1A==}
     engines: {node: ^22.22.2 || ^24.15.0 || >=26.0.0}
+    deprecated: Raised the minimum Node.js version (breaking) without a major bump. Use 4.x for the same code with correct semver, or pin 3.19.0 for Node < 22.22.2.
 
   jiti@2.6.1:
     resolution: {integrity: sha512-ekilCSN1jwRvIbgeg/57YFh8qQDNbwDb9xT/qu2DAHbFFZUicIl4ygVaAvzveMhMVr3LnpSKTNnwt8PoOfmKhQ==}
@@ -3184,6 +3190,7 @@ packages:
 
   svelte-check-rs@0.11.0:
     resolution: {integrity: sha512-bqMxNWBwKwb79QSAtfHkn1ka25hTgjJ3bxSaf3sEg5UX3KAFgDaQAS4aK6OSxjCSa78RUH6s0K0hhiyqSu2zmA==}
+    deprecated: 'Sunsetted September 2026; no longer maintained. Use official svelte-check: https://github.com/sveltejs/language-tools/tree/master/packages/svelte-check. Background: https://github.com/pheuter/svelte-check-rs#why-sunset-it-now'
     hasBin: true
     peerDependencies:
       '@typescript/native-preview': '>=7.0.0-dev.20260707.2'
@@ -4499,22 +4506,22 @@ snapshots:
       tailwindcss: 4.3.3
       vite: '@voidzero-dev/vite-plus-core@0.3.0(@types/node@26.3.0)(@typescript/typescript6@6.0.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.12)(yaml@2.9.0)'
 
-  '@tanstack/query-core@5.102.3': {}
+  '@tanstack/query-core@5.104.0': {}
 
   '@tanstack/query-devtools@5.102.3': {}
 
   '@tanstack/store@0.11.1': {}
 
-  '@tanstack/svelte-query-devtools@6.1.43(@tanstack/svelte-query@6.1.43(svelte@5.56.10))(svelte@5.56.10)':
+  '@tanstack/svelte-query-devtools@6.1.43(@tanstack/svelte-query@6.3.0(svelte@5.56.10))(svelte@5.56.10)':
     dependencies:
       '@tanstack/query-devtools': 5.102.3
-      '@tanstack/svelte-query': 6.1.43(svelte@5.56.10)
+      '@tanstack/svelte-query': 6.3.0(svelte@5.56.10)
       esm-env: 1.2.2
       svelte: 5.56.10
 
-  '@tanstack/svelte-query@6.1.43(svelte@5.56.10)':
+  '@tanstack/svelte-query@6.3.0(svelte@5.56.10)':
     dependencies:
-      '@tanstack/query-core': 5.102.3
+      '@tanstack/query-core': 5.104.0
       svelte: 5.56.10
 
   '@tanstack/svelte-store@0.12.1(svelte@5.56.10)':
