@@ -33,7 +33,7 @@ require (
 	github.com/fsnotify/fsnotify v1.10.1
 	github.com/getarcaneapp/arcane/cli/v2 v2.9.0
 	github.com/getarcaneapp/arcane/types/v2 v2.9.0
-	github.com/go-git/go-git/v5 v5.19.2
+	github.com/go-git/go-git/v5 v5.19.3
 	github.com/go-webauthn/webauthn v0.17.4
 	github.com/gofrs/flock v0.13.0
 	github.com/golang-jwt/jwt/v5 v5.3.1
@@ -73,7 +73,7 @@ require (
 	go.getarcane.app/updater v0.8.0
 	go.uber.org/fx v1.24.0
 	go.yaml.in/yaml/v4 v4.0.0-rc.6
-	golang.org/x/crypto v0.55.0
+	golang.org/x/crypto v0.56.0
 	golang.org/x/mod v0.40.0
 	golang.org/x/net v0.58.0
 	golang.org/x/oauth2 v0.36.0
@@ -158,7 +158,7 @@ require (
 	github.com/fvbommel/sortorder v1.1.0 // indirect
 	github.com/fxamacker/cbor/v2 v2.9.2 // indirect
 	github.com/go-git/gcfg v1.5.1-0.20230307220236-3a3c6141e376 // indirect
-	github.com/go-git/go-billy/v5 v5.9.0 // indirect
+	github.com/go-git/go-billy/v5 v5.9.2 // indirect
 	github.com/go-jose/go-jose/v4 v4.1.4 // indirect
 	github.com/go-logr/logr v1.4.4 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
@@ -230,7 +230,7 @@ require (
 	github.com/parthivsaikia/go-pacman-version v0.0.0-20260212091406-8640ae78daee // indirect
 	github.com/pelletier/go-toml/v2 v2.4.3 // indirect
 	github.com/philhofer/fwd v1.2.0 // indirect
-	github.com/pjbgf/sha1cd v0.6.0 // indirect
+	github.com/pjbgf/sha1cd v0.7.0 // indirect
 	github.com/pkg/browser v0.0.0-20240102092130-5ac0b6a4141c // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/planetscale/vtprotobuf v0.6.1-0.20240319094008-0393e58bdf10 // indirect
