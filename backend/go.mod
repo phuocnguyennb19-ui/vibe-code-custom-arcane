@@ -66,7 +66,7 @@ require (
 	go.getarcane.app/acfs v0.5.0
 	go.getarcane.app/builds v0.4.0
 	go.getarcane.app/docker/convert v0.3.0
-	go.getarcane.app/kit v0.1.0
+	go.getarcane.app/kit v0.4.0
 	go.getarcane.app/streams v0.4.2
 	go.getarcane.app/sys/cgroup v0.2.0
 	go.getarcane.app/sys/crypto v0.2.0
@@ -74,13 +74,13 @@ require (
 	go.uber.org/fx v1.24.0
 	go.yaml.in/yaml/v4 v4.0.0-rc.6
 	golang.org/x/crypto v0.55.0
-	golang.org/x/mod v0.40.0
+	golang.org/x/mod v0.41.0
 	golang.org/x/net v0.58.0
 	golang.org/x/oauth2 v0.36.0
-	golang.org/x/sync v0.22.0
+	golang.org/x/sync v0.23.0
 	golang.org/x/sys v0.47.0
 	golang.org/x/term v0.45.0
-	golang.org/x/text v0.41.0
+	golang.org/x/text v0.42.0
 	golang.org/x/time v0.15.0
 	google.golang.org/grpc v1.83.1
 	google.golang.org/protobuf v1.36.12
