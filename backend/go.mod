@@ -43,7 +43,7 @@ require (
 	github.com/klauspost/compress v1.19.2
 	github.com/labstack/echo/v5 v5.3.1
 	github.com/libtnb/sqlite v1.2.2
-	github.com/lmittmann/tint v1.2.0
+	github.com/lmittmann/tint v1.2.1
 	github.com/moby/buildkit v0.32.2
 	github.com/moby/moby/api v1.55.0
 	github.com/moby/moby/client v0.5.1
