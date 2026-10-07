@@ -45,7 +45,7 @@ require (
 	github.com/libtnb/sqlite v1.2.2
 	github.com/lmittmann/tint v1.2.0
 	github.com/moby/buildkit v0.32.2
-	github.com/moby/moby/api v1.55.0
+	github.com/moby/moby/api v1.56.1
 	github.com/moby/moby/client v0.5.1
 	github.com/nicholas-fedor/shoutrrr v0.17.1
 	github.com/opencontainers/go-digest v1.0.0
@@ -67,7 +67,7 @@ require (
 	go.getarcane.app/builds v0.4.0
 	go.getarcane.app/docker/convert v0.3.0
 	go.getarcane.app/kit v0.1.0
-	go.getarcane.app/streams v0.4.2
+	go.getarcane.app/streams v0.4.5
 	go.getarcane.app/sys/cgroup v0.2.0
 	go.getarcane.app/sys/crypto v0.2.0
 	go.getarcane.app/updater v0.8.0
