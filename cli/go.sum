@@ -166,8 +166,8 @@ github.com/xhit/go-str2duration/v2 v2.1.0 h1:lxklc02Drh6ynqX+DdPyp5pCKLUQpRT8bp8
 github.com/xhit/go-str2duration/v2 v2.1.0/go.mod h1:ohY8p+0f07DiV6Em5LKB0s2YpLtXVyJfNt1+BlmyAsU=
 github.com/xo/terminfo v0.0.0-20220910002029-abceb7e1c41e h1:JVG44RsyaB9T2KIHavMF/ppJZNG9ZpyihvCd0w101no=
 github.com/xo/terminfo v0.0.0-20220910002029-abceb7e1c41e/go.mod h1:RbqR21r5mrJuqunuUZ/Dhy/avygyECGrLceyNeo4LiM=
-go.getarcane.app/acfs v0.5.0 h1:AA9teZSTK8Jfb64TjBsXRi67G7hKNAS5W0CjE59C7mE=
-go.getarcane.app/acfs v0.5.0/go.mod h1:Z+0Gs4LGNjvGMLq+TKv/oGKh29FRbAH6mcVPwY5KhFI=
+go.getarcane.app/acfs v0.6.2 h1:5cO8uWPz16lg+aP/iQe+k5IIDTToccCqoakwoDfUOOE=
+go.getarcane.app/acfs v0.6.2/go.mod h1:Z+0Gs4LGNjvGMLq+TKv/oGKh29FRbAH6mcVPwY5KhFI=
 go.getarcane.app/sys/bytes v0.2.0 h1:gTaweUhtS0d9KkDwl7KRz57Je7CXluzbVFVX7CtsKbA=
 go.getarcane.app/sys/bytes v0.2.0/go.mod h1:fcMYM7dknLk+KDXYAg6XOfRF22POYxcTnQeypFEjDbE=
 go.opentelemetry.io/auto/sdk v1.2.1 h1:jXsnJ4Lmnqd11kwkBV2LgLoFMZKizbCi5fNZ/ipaZ64=
