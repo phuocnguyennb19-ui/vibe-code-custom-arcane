@@ -52,7 +52,7 @@
 		"ky": "^2.0.2",
 		"marked": "^18.0.11",
 		"mode-watcher": "^1.1.0",
-		"runed": "^0.37.1",
+		"runed": "^0.38.0",
 		"svelte": "^5.56.10",
 		"svelte-codemirror-editor": "^2.1.0",
 		"svelte-easy-crop": "^5.0.1",
