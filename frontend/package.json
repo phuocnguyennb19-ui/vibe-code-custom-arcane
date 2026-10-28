@@ -48,7 +48,7 @@
 		"bits-ui": "^2.19.0",
 		"clsx": "^2.1.1",
 		"embla-carousel-svelte": "^8.6.0",
-		"formsnap": "^2.0.1",
+		"formsnap": "^2.1.0",
 		"ky": "^2.0.2",
 		"marked": "^18.0.11",
 		"mode-watcher": "^1.1.0",
