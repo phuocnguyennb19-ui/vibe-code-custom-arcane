@@ -69,7 +69,7 @@
 		"@inlang/paraglide-js": "2.24.1",
 		"@sveltejs/adapter-static": "^4.0.0-next.4",
 		"@sveltejs/vite-plugin-svelte": "^7.3.0",
-		"@tailwindcss/vite": "^4.3.3",
+		"@tailwindcss/vite": "^4.3.5",
 		"@tanstack/svelte-query-devtools": "^6.1.43",
 		"@types/node": "^26.3.0",
 		"@typescript/native-preview": "7.0.0-dev.20260707.2",
