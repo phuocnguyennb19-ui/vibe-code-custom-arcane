@@ -17,7 +17,7 @@ require (
 	github.com/mattn/go-runewidth v0.0.28
 	github.com/samber/hot v0.13.1
 	github.com/spf13/cobra v1.10.2
-	github.com/spf13/pflag v1.0.10
+	github.com/spf13/pflag v1.1.0
 	github.com/spf13/viper v1.21.0
 	github.com/stretchr/testify v1.12.1
 	go.getarcane.app/acfs v0.5.0
