@@ -199,7 +199,7 @@ jobs:
         uses: actions/checkout@v7
 
       - name: Setup Vite+
-        uses: voidzero-dev/setup-vp@9446e853b27985e00fb1b21193be026fc09198db
+        uses: voidzero-dev/setup-vp@ee6805d1c428a397d5c7d3fa4111f8a7e5af2136
         with:
           node-version: 26
           cache: true
@@ -243,7 +243,7 @@ jobs:
         uses: actions/checkout@v7
 
       - name: Setup Vite+
-        uses: voidzero-dev/setup-vp@9446e853b27985e00fb1b21193be026fc09198db
+        uses: voidzero-dev/setup-vp@ee6805d1c428a397d5c7d3fa4111f8a7e5af2136
         with:
           node-version: 26
           cache: true
@@ -306,7 +306,7 @@ jobs:
         uses: actions/checkout@v7
 
       - name: Setup Vite+
-        uses: voidzero-dev/setup-vp@9446e853b27985e00fb1b21193be026fc09198db
+        uses: voidzero-dev/setup-vp@ee6805d1c428a397d5c7d3fa4111f8a7e5af2136
         with:
           node-version: 26
           cache: true
